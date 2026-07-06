@@ -31,18 +31,13 @@ html, body {
 }
 
 .avatar {
-  width: 84px;
-  height: 84px;
+  width: 108px;
+  height: 108px;
   margin: 0 auto 20px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), #6ec3ff);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--surface-border);
 }
 
 .bio h1 {
