@@ -90,6 +90,29 @@ html, body {
   margin: 0 0 20px;
 }
 
+.category {
+  margin-bottom: 40px;
+}
+
+.category:last-child {
+  margin-bottom: 0;
+}
+
+.category-title {
+  font-size: 18px;
+  font-weight: 650;
+  margin: 0 0 6px;
+  letter-spacing: -0.01em;
+}
+
+.category-desc {
+  font-size: 14px;
+  color: var(--text-dim);
+  max-width: 560px;
+  margin: 0 0 18px;
+  line-height: 1.5;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));

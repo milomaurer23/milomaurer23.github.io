@@ -28,65 +28,87 @@
 
     <section class="projects">
       <h2>Projects</h2>
-      <div class="grid">
 
-        <article class="card">
-          <h3>VibeStack</h3>
-          <p>Local-first loop &amp; one-shot composer. Real-time stretch and independent pitch-shift via a SoundTouch AudioWorklet, so samples snap to your project's key and tempo without the chipmunk effect.</p>
-          <div class="tags"><span>Electron</span><span>Next.js</span><span>FastAPI</span></div>
-          <div class="card-links">
-            <a href="https://github.com/milomaurer23/vibestack" target="_blank" rel="noopener">GitHub →</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <h3>MiniCraft 808</h3>
-          <p>A browser voxel sandbox with a built-in TR-808 step sequencer — mine, build, and program a beat without leaving the world.</p>
-          <div class="tags"><span>Three.js</span><span>Web Audio</span></div>
-          <div class="card-links">
-            <a class="live" href="https://milomaurer23.github.io/minicraft-808/" target="_blank" rel="noopener">Live demo →</a>
-            <a href="https://github.com/milomaurer23/minicraft-808" target="_blank" rel="noopener">GitHub →</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <h3>The Alzheimer's Decoder</h3>
-          <p>A behavior-log timeline for Alzheimer's caregivers — turns raw daily notes into a visual pattern of triggers and events.</p>
-          <div class="tags"><span>React</span><span>Vite</span><span>Recharts</span></div>
-          <div class="card-links">
-            <a class="live" href="https://milomaurer23.github.io/the-alzheimers-decoder/" target="_blank" rel="noopener">Live demo →</a>
-            <a href="https://github.com/milomaurer23/the-alzheimers-decoder" target="_blank" rel="noopener">GitHub →</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <h3>QuickNotes</h3>
-          <p>A minimal native macOS widget for jotting down a daily note without opening a full app.</p>
-          <div class="tags"><span>Swift</span><span>SwiftUI</span></div>
-          <div class="card-links">
-            <a href="https://github.com/milomaurer23/quicknotes-macos-widget" target="_blank" rel="noopener">GitHub →</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <h3>Timekeeper</h3>
-          <p>A native macOS widget for lightweight time-tracking, built to sit quietly in the background of the day.</p>
-          <div class="tags"><span>Swift</span><span>SwiftUI</span></div>
-          <div class="card-links">
-            <a href="https://github.com/milomaurer23/timekeeper-macos-widget" target="_blank" rel="noopener">GitHub →</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <h3>Foqos for Mac</h3>
-          <p>A native macOS port of <a href="https://github.com/awaseem/foqos" target="_blank" rel="noopener">Foqos</a>, the open-source NFC/QR app-lock tool — forked and extended to bring focus-tag locking to the desktop.</p>
-          <div class="tags"><span>Swift</span><span>macOS</span><span>Fork</span></div>
-          <div class="card-links">
-            <a href="https://github.com/milomaurer23/foqos-for-mac" target="_blank" rel="noopener">GitHub →</a>
-          </div>
-        </article>
-
+      <div class="category">
+        <h3 class="category-title">Music &amp; Audio</h3>
+        <p class="category-desc">Tools for producers that treat audio as something to be manipulated in real time, not just played back.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>VibeStack</h3>
+            <p>A local-first loop &amp; one-shot composer for browsing a sample library without breaking flow. A SoundTouch AudioWorklet handles real-time time-stretch and independent pitch-shift, so every sample snaps to your project's key and tempo without the chipmunk effect — audition ideas at speed and drag what works straight into your DAW.</p>
+            <div class="tags"><span>Electron</span><span>Next.js</span><span>FastAPI</span></div>
+            <div class="card-links">
+              <a href="https://github.com/milomaurer23/vibestack" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+          </article>
+        </div>
       </div>
+
+      <div class="category">
+        <h3 class="category-title">Game Development</h3>
+        <p class="category-desc">Interactive worlds built from scratch in the browser, experimenting with how play and sound can share the same space.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>MiniCraft 808</h3>
+            <p>A browser voxel sandbox that doubles as a step sequencer: build a world in Three.js, then step out of block-placing mode and program a TR-808-style beat on the same canvas — an experiment in fusing sandbox game mechanics with a working instrument, so you can mine, build, and make a beat without ever leaving the world.</p>
+            <div class="tags"><span>Three.js</span><span>Web Audio</span></div>
+            <div class="card-links">
+              <a class="live" href="https://milomaurer23.github.io/minicraft-808/" target="_blank" rel="noopener">Live demo →</a>
+              <a href="https://github.com/milomaurer23/minicraft-808" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="category">
+        <h3 class="category-title">Neuroscience &amp; Research</h3>
+        <p class="category-desc">Software that turns messy, real-world observational data into something a human can actually reason about.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>The Alzheimer's Decoder</h3>
+            <p>A behavior-log analysis tool for Alzheimer's caregivers, who often track daily behavior in scattered handwritten or app notes with no way to see the bigger picture. This turns those raw logs into a visual timeline, surfacing recurring triggers and events so patterns become visible instead of buried in a notebook.</p>
+            <div class="tags"><span>React</span><span>Vite</span><span>Recharts</span></div>
+            <div class="card-links">
+              <a class="live" href="https://milomaurer23.github.io/the-alzheimers-decoder/" target="_blank" rel="noopener">Live demo →</a>
+              <a href="https://github.com/milomaurer23/the-alzheimers-decoder" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="category">
+        <h3 class="category-title">Software &amp; Tools</h3>
+        <p class="category-desc">Small, native utilities built to disappear into daily use — low-friction, single-purpose, and quick to get in and out of.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>QuickNotes</h3>
+            <p>A minimal native macOS widget for capturing a single daily note without the overhead of opening a full notes app — built for the kind of quick, low-friction capture that gets skipped if it takes more than a few seconds.</p>
+            <div class="tags"><span>Swift</span><span>SwiftUI</span></div>
+            <div class="card-links">
+              <a href="https://github.com/milomaurer23/quicknotes-macos-widget" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Timekeeper</h3>
+            <p>A native macOS widget for lightweight time-tracking that sits quietly in the background of the day — no start/stop rituals to remember, just a passive read on where the hours went.</p>
+            <div class="tags"><span>Swift</span><span>SwiftUI</span></div>
+            <div class="card-links">
+              <a href="https://github.com/milomaurer23/timekeeper-macos-widget" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Foqos for Mac</h3>
+            <p>A native macOS port of <a href="https://github.com/awaseem/foqos" target="_blank" rel="noopener">Foqos</a>, the open-source NFC/QR app-lock tool — forked and extended to bring tap-a-tag focus locking, previously iPhone-only, to the desktop.</p>
+            <div class="tags"><span>Swift</span><span>macOS</span><span>Fork</span></div>
+            <div class="card-links">
+              <a href="https://github.com/milomaurer23/foqos-for-mac" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
     </section>
 
     <footer>
