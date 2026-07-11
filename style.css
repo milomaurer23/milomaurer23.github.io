@@ -123,7 +123,7 @@ html, body {
   background: var(--surface);
   border: 1px solid var(--surface-border);
   border-radius: var(--radius);
-  padding: 20px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   transition: border-color 0.15s ease, transform 0.15s ease;
@@ -134,10 +134,37 @@ html, body {
   transform: translateY(-2px);
 }
 
+.thumb {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top;
+  border-bottom: 1px solid var(--surface-border);
+  background: #000;
+}
+
+.card h3,
+.card p,
+.card .tags,
+.card .card-links {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .card h3 {
   font-size: 16px;
   font-weight: 650;
-  margin: 0 0 8px;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+.card > h3:first-child {
+  margin-top: 20px;
+}
+
+.card .card-links {
+  margin-bottom: 20px;
 }
 
 .card p {
